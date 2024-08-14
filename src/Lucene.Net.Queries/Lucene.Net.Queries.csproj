@@ -30,7 +30,7 @@
   <Import Project="$(SolutionDir).build/nuget.props" />
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFrameworks>net6.0</TargetFrameworks>
 
     <AssemblyTitle>Lucene.Net.Queries</AssemblyTitle>
     <PackageTags>$(PackageTags);query;queries</PackageTags>
